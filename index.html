@@ -2,40 +2,130 @@
 <!DOCTYPE html>
 <html>
 <title>Yunlu Shi</title>
-<meta charset = "UTF-8">
-<meta name = "viewport" content = "width=device-width, initial-scale=1">
-<link href = "https://fonts.googleapis.com/css?family=Alegreya+Sans:300|PT+Sans" rel = "stylesheet">
-<link rel = "stylesheet" href = "css/style.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300|PT+Sans" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <header>
-    <div class = "header">
-        <div class = "col-md-offset-1 col-md-3" style="padding-top: 30px">
-            <div class = "logo">ICON</div>
+    <div class="header">
+        <br>
+        <div class="col-2">
+            <div class="logo">ICON</div>
         </div>
     </div>
 </header>
-<div class = "container-fluid" id = start>
-    <div class = "col-md-3" style="padding-top: 30px">
-        <div class = "scard align-text-middle" style="padding-top: 30px">CONTACT ME</div>
-    </div>
-    <div class = "col-md-3" style="padding-top: 80px">
-        <div class = "mcard">PORTFOLIO</div>
-    </div>
-    <div class = "col-md-3" style="padding-top: 30px">
-        <div class = "scard">ABOUT ME</div>
-    </div>
-    <div class = "col-md-3" style="padding-top: 30px">
-        <div class = "scard">RESUME</div>
+<div class="container-fluid lbox" id=start>
+    <div class="row">
+        <div onclick="location.href='#menu'" class="col-4 offset-4 col-md-3 offset-md-5 hvr-float-shadow">
+            <img src="img/bg/home.png" class="home">
+        </div>
     </div>
 </div>
-
+<div class="container-fluid lbox" id=menu>
+    <div class="row">
+        <div class="col-6 col-md-3 text-center">
+            <div class="scard">
+            <h3 class="h3_text">CONTACT ME</h3>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 text-center">
+            <div onclick="location.href='#portfolio'" class="scard">
+            <h3 class="h3_text">PORTFOLIO</h3>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 text-center">
+            <div onclick="location.href='#about'" class="scard">
+            <h3 class="h3_text">ABOUT ME</h3>
+            </div>
+        </div>
+        <div class="col-6 col-md-3 text-center">
+            <div class="scard">
+            <h3 class="h3_text">RESUME</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lbox" id=portfolio>
+    <div class="row">
+        <h2 class="h2_text" style="padding-left:10%;">Here is a collection of my recent works. </h2>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-4 text-center">
+            <div class="hvr-bounce-in mcard">
+            <img  src="img/wanderful/Card-sorting.png" class="image">
+            <div class="overlay">
+                <div  onclick="location.href='wanderful.html'" class="text">
+                <h2 class="h2_text text col-12">Wanderful</h2>
+                <h5 class="h5_text text col-12">Website Design</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 text-center">
+            <div class="hvr-bounce-in mcard">
+            <img  src="img/wanderful/Card-sorting.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                <h2 class="h2_text text col-12">Itine</h2>
+                <h5 class="h5_text text col-12">Mobile App</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 text-center">
+            <div class="hvr-bounce-in mcard">
+            <img  src="img/wanderful/cover.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                <h2 class="h2_text text col-12">BIDS</h2>
+                <h5 class="h5_text text col-12">Website Design</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 text-center">
+            <div class="hvr-bounce-in mcard">
+            <img  src="img/wanderful/Card-sorting.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                <h2 class="h2_text text col-12">AirBrush</h2>
+                <h5 class="h5_text text col-12">Usability Testing</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lbox" id=about>
+    <div class="row">
+        <h2 class="h2_text" style="padding-left:10%;">Hi, there! My name is Yunlu</h2>
+    </div>
+    <div class="row">
+        <div class="sbutton left col-4 hvr-float-shadow">What do you want to know?
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="sbutton right col-4 hvr-float-shadow">Next project:
+        </div>
+    </div>
+<!--     <div class="container-fluid sbox">
+        <div class="row">
+            <img class="icon col-2" src="img/bg/avatar.jpeg">
+            <div class="col">
+                <h4 class="h4_text"><b>YUNLU SHI</b></h4>
+                <p class="h5_text">A UX designer who is passionate about improving user experience in daily life.</p>
+            </div>
+        </div>
+    </div> -->
+</div>
+<script src="js/index.js"></script>
 </body>
 </html>
