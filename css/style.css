@@ -90,7 +90,7 @@
 
 .lbox {
   position:relative;
-  height:800px;
+  min-height:800px;
   padding-top:100px;
   background-color:#BDE9E8;
 /*  background-image:url(img/bg/white.png);*/
@@ -130,8 +130,8 @@
   border-radius:4px;
   margin-bottom:20px;
   text-align:center;
-  background-color:#fff8ef;
-/*  box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.5);*/
+/*  background-color:#fff8ef;
+*//*  box-shadow:3px 3px 0 0 rgba(0, 0, 0, 0.5);*/
 /*  border:solid 1px #28262c;*/
 }
 .lcard {
@@ -226,7 +226,8 @@
   color:#fff8ef;
 }
 .icon {
-  width:60%;
+  width:50%;
+  max-width:100px;
   text-align:center;
 }
 .home {
@@ -347,4 +348,20 @@
     left:5px;
     border:1px solid #28262c;;
     padding:10px;
+}
+.chat {
+  width: auto;
+  min-height: 40px;
+  margin: 20px;
+  border: none;
+  background-color: #fff8ef;
+}
+.xsbutton {
+  width: 120px;
+  height: 40px;
+  margin:20px;
+  border: none;
+  background-color: lightgrey;
+  text-align:center;
+  padding-top:5px;
 }
