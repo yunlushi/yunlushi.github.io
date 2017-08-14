@@ -13,18 +13,33 @@
 
 <body>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<header>
+<!-- <header>
     <div class="header">
         <br>
         <div class="col-2">
             <div class="logo">ICON</div>
         </div>
     </div>
-</header>
-<div class="container-fluid lbox" id=start>
+</header> -->
+<div class="container-fluid mbox" id=start>
     <div class="row">
         <div onclick="location.href='#menu'" class="col-4 offset-4 col-md-3 offset-md-5 hvr-float-shadow">
             <img src="img/bg/home.png" class="home">
+        </div>
+    </div>
+</div>
+<div class="container-fluid sbox">
+    <div class="row justify-content-start">
+        <div class="chat">
+        <p class="chat_text">What do you want to know?</p>
+        </div>
+    </div>
+    <div class="row justify-content-end">
+        <div class="xsbutton">
+        <p class="chat_text text_light">Tell me more about you</p>
+        </div>
+        <div class="xsbutton">
+        <p class="chat_text text_light">I don't want chat now</p>
         </div>
     </div>
 </div>
@@ -57,53 +72,54 @@
         <h2 class="h2_text" style="padding-left:10%;">Here is a collection of my recent works. </h2>
     </div>
     <div class="row">
-        <div class="col-6 col-md-4 text-center">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
             <div class="hvr-bounce-in mcard">
             <img  src="img/wanderful/Card-sorting.png" class="image">
             <div class="overlay">
-                <div  onclick="location.href='wanderful.html'" class="text">
+                <div  onclick="location.href='wanderful_2.html'" class="text">
                 <h2 class="h2_text text col-12">Wanderful</h2>
-                <h5 class="h5_text text col-12">Website Design</h5>
+                <h6 class="h6_text text col-12">Website Design</h6>
                 </div>
             </div>
             </div>
         </div>
-        <div class="col-6 col-md-4 text-center">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
             <div class="hvr-bounce-in mcard">
             <img  src="img/wanderful/Card-sorting.png" class="image">
             <div class="overlay">
                 <div class="text">
-                <h2 class="h2_text text col-12">Itine</h2>
-                <h5 class="h5_text text col-12">Mobile App</h5>
+                <h2 class="h2_text text col-12">EasyWay</h2>
+                <h6 class="h6_text text col-12">Mobile App</h6>
                 </div>
             </div>
             </div>
         </div>
-        <div class="col-6 col-md-4 text-center">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
             <div class="hvr-bounce-in mcard">
             <img  src="img/wanderful/cover.png" class="image">
             <div class="overlay">
                 <div class="text">
                 <h2 class="h2_text text col-12">BIDS</h2>
-                <h5 class="h5_text text col-12">Website Design</h5>
+                <h6 class="h6_text text col-12">Website Design</h6>
                 </div>
             </div>
             </div>
         </div>
-        <div class="col-6 col-md-4 text-center">
+        <div class="col-12 col-sm-6 col-md-4 text-center">
             <div class="hvr-bounce-in mcard">
             <img  src="img/wanderful/Card-sorting.png" class="image">
             <div class="overlay">
                 <div class="text">
                 <h2 class="h2_text text col-12">AirBrush</h2>
-                <h5 class="h5_text text col-12">Usability Testing</h5>
+                <h6 class="h6_text text col-12">Usability Testing</h6>
                 </div>
             </div>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid lbox" id=about>
+<br>
+<!-- <div class="container-fluid lbox" id=about>
     <div class="row">
         <h2 class="h2_text" style="padding-left:20px;">Hi, there! My name is Yunlu</h2>
     </div>
@@ -119,32 +135,21 @@
           My resume
         </div>
     </div>
-    <div class="row justify-content-start">
-        <div class="chat">What do you want to know?What do you want to know?What do you want to know?
-        </div>
-    </div>
-    <div class="row justify-content-end">
-        <div class="xsbutton">
-          My projects
-        </div>
-        <div class="xsbutton">
-          My resume
-        </div>
-    </div>
-</div>
+</div> -->
 <script src="js/index.js"></script>
 </body>
 <footer>
-    <div class="container-fluid sbox">
-        <div class="media">
-            <img class="icon col-2" src="img/bg/avatar.jpeg">
-            <div class="col-10">
-                <h4 class="h4_text"><b>YUNLU SHI</b></h4>
-                <p class="h5_text">A UX designer who is passionate about improving user experience in daily life.</p>
+    <div class="container-fluid">
+        <div class="row media">
+            <img class="icon col-2 col-lg-1" src="img/bg/avatar.jpeg">
+            <div class="col-10 col-lg-11">
+                <h5 class="h5_text"><b>YUNLU SHI</b></h5>
+                <p class="h6_text">A UX designer who is passionate about improving user experience in daily life.</p>
             </div>
         </div>
-        <br>
-        <h6 class="h6_text bottom-text">Copyright © 2017 Yunlu Shi. All Rights Reserved.</h6>
+    </div>
+    <div class="container-fliud">
+        <p class="footer_text bottom-text">Copyright © 2017 Yunlu Shi. All Rights Reserved.</p>
     </div>
 </footer>
 </html>
