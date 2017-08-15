@@ -91,7 +91,7 @@
 .quota {
   position:relative;
   width:auto;
-  height:200px;
+  height:300px;
   padding-top: 40px;
   padding-left:20px;
   text-align: center;
@@ -140,11 +140,9 @@
 /*  border:solid 1px #48284A;*/
 }
 .mcard {
-  min-width:200px;
+  width:auto;
   overflow:hidden;
-  max-width:200px;
-  min-height:200px;
-  max-height:200px;
+  height:auto;
   text-align:center;
   border-radius:4px;
   margin:20px;
@@ -236,6 +234,9 @@
 }
 .diagram {
   width:100%;
+}
+.storyboard {
+  width:70%;
 }
 .text_align {
   padding-top:50px;
@@ -369,6 +370,7 @@
   padding:8px;
   border-radius: 4px
 }
+
 /*.carousel-control-prev {
   background-color:#694A38;
 }
