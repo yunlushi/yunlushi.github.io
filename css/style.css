@@ -5,7 +5,7 @@
   color:#202C39;
 }
 .h2_text {
-  font-family:'PT Sans', sans-serif;
+  font-family:'Dosis', sans-serif;
   font-size:30px;
   color:#202C39;
 }
@@ -33,6 +33,18 @@
   font-family:'Alegreya Sans', sans-serif;
   font-size:18px;
   color:#202C39;
+}
+.num {
+  font-family: 'Dosis', sans-serif;
+  font-size: 28px;
+/*  color:#E15A97;
+*/  color: #028090;
+  padding-right: 15px;
+}
+.highlight{
+  font-family:'PT Sans', sans-serif;
+  font-size:18px;
+  color:#F4AC45;
 }
 .footer_text {
   font-family:'Alegreya Sans', sans-serif;
@@ -88,10 +100,21 @@
   background-color:#CAEFF7;
 /*  background-image:url(img/bg/white.png);*/
 }
-.quota {
+.squota {
   position:relative;
   width:auto;
-  height:300px;
+  height: auto;
+  padding-top: 40px;
+  padding-left:20px;
+  text-align: center;
+  vertical-align:bottom;
+  background-color:#48284A;
+/*  background-image:url(img/bg/white.png);*/
+}
+.mquota {
+  position:relative;
+  width:auto;
+  height: 250px;
   padding-top: 40px;
   padding-left:20px;
   text-align: center;
@@ -121,6 +144,10 @@
   text-align:center;
   background-color:#ffbfbe;
 }
+.table{
+  text-align:left;
+  border: 1px solid #ffffff;
+}
 .xlcard {
   width:auto;
   border-radius:4px;
@@ -140,9 +167,9 @@
 /*  border:solid 1px #48284A;*/
 }
 .mcard {
-  width:auto;
+  max-width:250px;
   overflow:hidden;
-  height:auto;
+  max-height:250px;
   text-align:center;
   border-radius:4px;
   margin:20px;
@@ -202,7 +229,7 @@
   margin-bottom:20px;
   position:relative;
   width:auto;
-  height:80px;
+  height:auto;
   background-color:#FFFCF9;
 /*  border-radius:77px;
   box-shadow:inset 3px 3px 0 0 rgba(0, 0, 0, 0.5);  
