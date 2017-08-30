@@ -13,7 +13,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 <body>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div onclick="topFunction()" id="myBtn" title="Go to top">Top</div>
 <!-- <header>
     <div class="header">
         <br>
@@ -29,7 +29,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid sbox">
+<!-- <div class="container-fluid sbox">
     <div class="row justify-content-start">
         <div class="chat">
         <p class="chat_text">What do you want to know?</p>
@@ -43,14 +43,9 @@
         <p class="chat_text text_light">I don't want chat now</p>
         </div>
     </div>
-</div>
+</div> -->
 <div class="container-fluid lbox" id=menu>
     <div class="row">
-        <div class="col-6 col-md-3 text-center">
-            <div class="scard">
-            <h3 class="h3_text">CONTACT ME</h3>
-            </div>
-        </div>
         <div class="col-6 col-md-3 text-center">
             <div onclick="location.href='#portfolio'" class="scard">
             <h3 class="h3_text">PORTFOLIO</h3>
@@ -66,19 +61,27 @@
             <a href="/file/yunlu_shi_resume.pdf" download class="h3_text">RESUME</a>
             </div>
         </div>
+        <div class="col-6 col-md-3 text-center">
+            <div class="scard">
+            <a href="mailto:sylululu@gmail.com" class="h3_text">CONTACT</a>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container-fluid lbox" id=portfolio>
     <div class="row">
-        <h2 class="h2_text" style="padding-left:10%;">Here is a collection of my recent works. </h2>
+        <h2 class="h2_text col-12" style="padding-left:10%;">Here is a collection of my recent works.</h2>
     </div>
     <br>
-    <div class="row">
+    <div class="section-title">
+        <h4 class="h3_text col-12">User Experience</h4>
+    </div>
+    <div class="row col-12">
         <div class="col-12 col-sm-6 col-md-4 text-center">
             <div class="hvr-bounce-in mcard">
             <img  src="img/bg/wanderful1.png" class="image">
             <div class="overlay">
-                <div  onclick="location.href='wanderful_2.html'" class="text">
+                <div onclick="location.href='wanderful_2.html'" class="text">
                 <h2 class="h2_text text col-12">Wanderful</h2>
                 <h6 class="h6_text text col-12">Website Design</h6>
                 </div>
@@ -87,7 +90,7 @@
         </div>
         <div class="col-12 col-sm-6 col-md-4 text-center">
             <div class="hvr-bounce-in mcard">
-            <img  src="img/bg/wanderful.png" class="image">
+            <img  src="img/bg/easyway.png" class="image">
             <div class="overlay">
                 <div onclick="location.href='easyway.html'" class="text">
                 <h2 class="h2_text text col-12">EasyWay</h2>
@@ -109,7 +112,7 @@
         </div>
         <div class="col-12 col-sm-6 col-md-4 text-center">
             <div class="hvr-bounce-in mcard">
-            <img  src="img/bg/wanderful.png" class="image">
+            <img  src="img/bg/airbrush.png" class="image">
             <div class="overlay">
                 <div class="text">
                 <h2 onclick="location.href='airbrush.html'" class="h2_text text col-12">AirBrush</h2>
@@ -118,6 +121,42 @@
             </div>
             </div>
         </div>
+    </div>
+    <div class="section-title">
+        <h4 class="h3_text col-12">Design & Sketch</h4>
+    </div>
+    <div class="row col-12">
+        <div class="col-6 col-sm-4 col-md-2 text-center">
+            <div class="hvr-bounce-in mcard2">
+            <img  src="img/bg/sketch.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                <h5 onclick="location.href='sketch.html'" class="h5_text text col-12">Sketch</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 text-center">
+            <div class="hvr-bounce-in mcard2">
+            <img  src="img/bg/ZEH.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                <h5 onclick="location.href='http://sylululu.wixsite.com/home'" class="h5_text text col-12">Capstone Project</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 text-center">
+            <div class="hvr-bounce-in mcard2">
+                <img  src="img/bg/poster.png" class="image">
+                <div class="overlay">
+                    <div class="text">
+                    <h5 onclick="location.href='https://issuu.com/yunlu1/docs/uli_team170071_entwined_elston_pres_f648a4f3b7bf10'" class="h5_text text col-12">Poster Design</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--         <iframe style="width:1000px; height:500px;" src="//e.issuu.com/embed.html#30793168/52659322" frameborder="0" allowfullscreen></iframe> -->
     </div>
 </div>
 <br>
